@@ -1,0 +1,25 @@
+{
+  "_note": "FICTIONAL sample data for the template. Example City and every figure here are made up.",
+  "source": {
+    "name": "Example City open data: building permits issued",
+    "dataset_url": "https://data.example.gov/d/abcd-1234",
+    "extract_date": "2026-10-31"
+  },
+  "matched_window": "01-01 - 10-31",
+  "counts": {"raw_permits": 9120, "revisions_removed": 1404, "not_in_scope": 611, "in_scope": 7105},
+  "by_year": [
+    {"year": 2021, "permits": 1180, "permits_full_year": 1402},
+    {"year": 2022, "permits": 1395, "permits_full_year": 1661},
+    {"year": 2023, "permits": 1262, "permits_full_year": 1510},
+    {"year": 2024, "permits": 1214, "permits_full_year": 1455},
+    {"year": 2025, "permits": 1101, "permits_full_year": 1320},
+    {"year": 2026, "permits": 953, "permits_full_year": null}
+  ],
+  "by_area_since_2024": [
+    {"area": "Harbor", "permits": 902},
+    {"area": "Hillcrest", "permits": 744},
+    {"area": "Old Town", "permits": 611},
+    {"area": "Riverside", "permits": 503},
+    {"area": "Northgate", "permits": 508}
+  ]
+}
