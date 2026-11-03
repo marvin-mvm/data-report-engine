@@ -5,6 +5,9 @@ dataset, clean and verify it, generate the article from the data, publish it to 
 deploy, and verify that it is actually live. Each report ships with its CSV and JSON so people and
 AI agents can cite the numbers.
 
+> **Provenance:** generalized public edition of a pipeline I built and run in production; client
+> details removed. The LA examples run against the City's public open data.
+
 Read [`PLAYBOOK.md`](PLAYBOOK.md) first. It holds the method, and most of it is about not
 publishing a wrong number.
 
@@ -66,3 +69,7 @@ node engine/publish-article.mjs --verify <slug> --timeout 10
 ```
 
 The insert alone leaves the article half-live. See the playbook, section 6.
+
+## License
+
+MIT. See [`LICENSE`](LICENSE).
